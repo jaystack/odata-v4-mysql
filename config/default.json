@@ -1,0 +1,8 @@
+{
+    "sqlConfig": {
+        "host": "localhost",
+        "user": "db",
+        "password": "***",
+        "database": "world"
+    }
+}
