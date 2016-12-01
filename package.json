@@ -1,6 +1,6 @@
 {
   "name": "odata-v4-mysql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OData to MySQL query compiler",
   "main": "build/lib/index.js",
   "typings": "build/lib/index",
@@ -12,7 +12,9 @@
     "pretest": "npm run build",
     "test": "mocha",
     "pretdd": "npm run build",
-    "tdd": "mocha -w"
+    "tdd": "mocha -w",
+    "prepublish": "npm run build",
+    "start": "tsc && node build/example/sql.js"
   },
   "repository": {
     "type": "git",

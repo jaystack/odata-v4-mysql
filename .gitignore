@@ -34,3 +34,4 @@ node_modules
 
 .vscode
 config/development.json
+build
