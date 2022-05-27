@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/jaystack/odata-v4-mysql#readme",
   "dependencies": {
-    "odata-v4-parser": "0.1.13",
+    "odata-v4-parser": "^0.1.13",
     "odata-v4-sql": "^0.1.1"
   },
   "devDependencies": {
